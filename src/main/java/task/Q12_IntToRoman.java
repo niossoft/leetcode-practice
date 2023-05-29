@@ -25,9 +25,13 @@ public class Q12_IntToRoman {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		System.out.println(intToRoman(1994));
+		int[] testNum = {1991, 3, 62, 3492};
+		
+		for (int i=0 ; i < testNum.length ; i++) {
+			System.out.println(intToRoman(testNum[i]));
+		}
+			
 	}
 	
     public static String intToRoman(int num) {
